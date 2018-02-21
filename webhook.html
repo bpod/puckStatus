@@ -30,6 +30,8 @@
         function onLine(v) {
             log("Received: " + JSON.stringify(v));
             if (v.indexOf("Temperature") >= 0) {
+                var test = JSON.parse(v);
+                debugger;
                 log("Calling IFTTT");
                 ifttt();
             }
