@@ -9,7 +9,8 @@
     var connection;
 
     function onLine(v) {
-      console.dir("Received: " + JSON.parse(v));
+      console.log("Received: ");
+      console.dir(JSON.parse(v));
       // path.style.fill="rgb("+Math.round(v*255)+",0,0)";
     }
 
