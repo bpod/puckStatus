@@ -9,6 +9,7 @@
     var connection;
 
     function onLine(v) {
+      debugger;
       console.log("Received: " + JSON.stringify(v));
       // path.style.fill="rgb("+Math.round(v*255)+",0,0)";
     }
@@ -30,13 +31,14 @@
         // whenever we get a line
         var buf = "";
         connection.on("data", function (d) {
-          buf += d;
-          var i = buf.indexOf("\n");
-          while (i >= 0) {
-            onLine(buf.substr(0, i));
-            buf = buf.substr(i + 1);
-            i = buf.indexOf("\n");
-          }
+          onLine(d);
+          // buf += d;
+          // var i = buf.indexOf("\n");
+          // while (i >= 0) {
+          //   onLine(buf.substr(0, i));
+          //   buf = buf.substr(i + 1);
+          //   i = buf.indexOf("\n");
+          // }
         });
       });
     }
