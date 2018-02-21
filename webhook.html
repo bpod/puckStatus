@@ -31,9 +31,12 @@
             log("Received: " + JSON.stringify(v));
             if (v.indexOf("Temperature") >= 0) {
                 var test = JSON.parse(v);
-                debugger;
+                var payload = {
+                    "value1": test.Temperature
+                }
+                //debugger;
                 log("Calling IFTTT");
-                ifttt();
+                ifttt(JSON.stringify(payload));
             }
         }
 
