@@ -32,7 +32,7 @@
             if (v.indexOf("Temperature") >= 0) {
                 var test = JSON.parse(v);
                 var payload = {
-                    "value1": test.Temperature
+                    "value1": "Temperature " + test.Temperature
                 }
                 debugger;
                 log("Calling IFTTT");
