@@ -28,7 +28,7 @@
         // Called when we get a line of data
         function onLine(v) {
             log("Received: " + JSON.stringify(v));
-            if (v.indexOf("Temperature") >= 0) {
+            if (v.indexOf("temperature") >= 0 && v.indexOf("batteryLevel") >= 0) {
                 var test = JSON.parse(v);
                 var payload = "?value1=Temperature " + test.temperature + "?value2=Battery Level " + test.batteryLevel;
                 IFTTTURL = IFTTTURL += payload;
