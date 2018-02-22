@@ -12,7 +12,7 @@
     <script src="https://www.puck-js.com/puck.js"></script>
     <script type="text/javascript">
         // ------------------------------------- REPLACE ME
-        var URL = "https://maker.ifttt.com/trigger/PUCK_PRESSED/with/key/moNVnwKBtqzjRRXBbaLoey3ktbhF0_KIWVeLttAPVf0";
+        var IFTTTURL = "https://maker.ifttt.com/trigger/PUCK_PRESSED/with/key/moNVnwKBtqzjRRXBbaLoey3ktbhF0_KIWVeLttAPVf0";
         // ------------------------------------- REPLACE ME
         var button = document.getElementsByTagName('button')[0];
         var logelement = document.getElementById('log');
@@ -22,8 +22,7 @@
         }
 
         function ifttt() {
-            document.getElementById('ifttt').src = URL + "?" + iftttRequests;
-            iftttRequests++;
+            document.getElementById('ifttt').src = IFTTTURL;
         }
 
         // Called when we get a line of data
@@ -31,12 +30,14 @@
             log("Received: " + JSON.stringify(v));
             if (v.indexOf("Temperature") >= 0) {
                 var test = JSON.parse(v);
+                var payload = "?value1=Temperature " + test.Temperature;
+                IFTTTURL = IFTTTURL += payload;
                 var payload = {
                     "value1": "Temperature " + test.Temperature
                 }
-                debugger;
+                // debugger;
                 log("Calling IFTTT");
-                ifttt(JSON.stringify(payload));
+                ifttt();
             }
         }
 
