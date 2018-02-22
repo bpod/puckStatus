@@ -30,7 +30,7 @@
             log("Received: " + JSON.stringify(v));
             if (v.indexOf("Temperature") >= 0) {
                 var test = JSON.parse(v);
-                var payload = "?value1=Temperature " + test.temperature + "?value1=Battery Level " + test.batteryLevel;
+                var payload = "?value1=Temperature " + test.temperature + "?value2=Battery Level " + test.batteryLevel;
                 IFTTTURL = IFTTTURL += payload;
                 // var payload = {
                 //     "value1": "Temperature " + test.Temperature
