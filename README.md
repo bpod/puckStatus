@@ -20,7 +20,7 @@ See also the list of [contributors](https://github.com/bpod/puckStatus/graphs/co
 
 Copyright © 2019 Burton Podczerwinski
 
-![](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
+![http://www.wtfpl.net/](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
 
 > This work is free. You can redistribute it and/or modify it under the
 > terms of the `WTFPL`, Version 2,
