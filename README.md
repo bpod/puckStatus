@@ -24,4 +24,6 @@ Copyright © 2019 Burton Podczerwinski
 > terms of the `WTFPL`, Version 2,
 > as published by Sam Hocevar.
 
+![](http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png)
+
 See the [LICENSE.md](https://github.com/bpod/puckStatus/blob/develop/LICENSE.MD) file for more details.
