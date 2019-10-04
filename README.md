@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## PuckJS Web BlueTooth Example
 
-You can use the [editor on GitHub](https://github.com/bpod/puckStatus/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Contributing
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-### Markdown
+## Versioning
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bpod/puckStatus/tags).
 
-```markdown
-Syntax highlighted code block
+## Authors
 
-# Header 1
-## Header 2
-### Header 3
+- **Burton Podczerwinski** - _Initial work_ - [BPod](https://github.com/bpod)
 
-- Bulleted
-- List
+`@TODO` ADD Contributors and Maintainers
 
-1. Numbered
-2. List
+See also the list of [contributors](https://github.com/bpod/puckStatus/graphs/contributors) who participated in this project.
 
-**Bold** and _Italic_ and `Code` text
+## License
 
-[Link](url) and ![Image](src)
-```
+Copyright © 2019 Burton Podczerwinski <befreestudios@gmail.com>
+This work is free. You can redistribute it and/or modify it under the
+terms of the `WTFPL`, Version 2,
+as published by Sam Hocevar.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bpod/puckStatus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+See the [LICENSE.md](LICENSE.md) file for more details.
