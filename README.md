@@ -18,7 +18,7 @@ See also the list of [contributors](https://github.com/bpod/puckStatus/graphs/co
 
 ## License
 
-Copyright © 2019 Burton Podczerwinski <befreestudios@gmail.com>
+Copyright © 2019 Burton Podczerwinski
 This work is free. You can redistribute it and/or modify it under the
 terms of the `WTFPL`, Version 2,
 as published by Sam Hocevar.
